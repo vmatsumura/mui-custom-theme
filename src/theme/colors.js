@@ -1,0 +1,76 @@
+const colors = {
+    "brandPrimary10": "#E6F1FA",
+    "brandPrimary30": "#82C2FA",
+    "brandPrimary50": "#006DCC",
+    "brandPrimary60": "#0057A3",
+    "brandPrimary70": "#003B6F",
+    "brandSecondary50": "#43527A",
+    "brandSecondary70": "#1F273D",
+    "brandSecondary80": "#050E28",
+
+    "themeUi00": "#FFFFFF",
+    "themeUi10": "#F7F8FA",
+    "themeUi20": "#EEF0F5",
+    "themeUi30": "#E1E5ED",
+    "themeUi40": "#C5CCD6",
+    "themeUi60": "#626C7A",
+    "themeUi70": "#363E48",
+    "themeUi80": "#030C17",
+
+    "fbSuccess50": "#21A08C",
+    "fbSuccess80": "#036A5A",
+    "fbWarn50": "#F2BB30",
+    "fbWarn80": "#995E00",
+    "fbError50": "#E53D59",
+    "fbError80": "#B60825",
+
+    "dataBlue50": "#006DCC",
+    "dataBlue10": "#E6F1FA",
+    "dataBlue30": "#48A4F2",
+    "dataBlue80": "#004F94",
+    "dataBlue100": "#003B6F",
+
+    "dataRed50": "#E53D59",
+    "dataRed10": "#FFEBEE",
+    "dataRed30": "#F57D90",
+    "dataRed80": "#D51131",
+    "dataRed100": "#B60825",
+
+    "dataOrange50": "#F5793B",
+    "dataOrange10": "#FFF1EB",
+    "dataOrange30": "#FBA77F",
+    "dataOrange80": "#E34F05",
+    "dataOrange100": "#B83D00",
+
+    "dataGreen50": "#2CBFA8",
+    "dataGreen10": "#E1F5F2",
+    "dataGreen30": "#70D9C9",
+    "dataGreen80": "#0F917D",
+    "dataGreen100": "#036A5A",
+
+    "dataPurple50": "#7E49BF",
+    "dataPurple10": "#F4EBFF",
+    "dataPurple30": "#AC7CE7",
+    "dataPurple80": "#562F85",
+    "dataPurple100": "#3C215C",
+
+    "dataYellow50": "#F2BB30",
+    "dataYellow10": "#FFF3D6",
+    "dataYellow30": "#FAD270",
+    "dataYellow80": "#CB8705",
+    "dataYellow100": "#995E00",
+
+    "dataAqua50": "#1CCFEB",
+    "dataAqua10": "#E6F7FA",
+    "dataAqua30": "#71DBED",
+    "dataAqua80": "#069EB6",
+    "dataAqua100": "#00778A",
+
+    "primaryYellow": "#FFCE2E",
+    "secondaryGrey": "#424242",
+    "disabledText": "rgba(128, 128, 128, 0.25)",
+    "disabledBackground": "rgba(128, 128, 128, 0.1)",
+    "primaryYellowHover": "#FFCE2E",
+}
+
+export default colors
