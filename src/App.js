@@ -14,6 +14,7 @@ import {
   MenuItem,
   Divider,
  } from '@material-ui/core';
+import CustomButton from './components/button'
 import theme from './theme'
 
 const themeType = 'light'
@@ -35,7 +36,7 @@ function App() {
       </header>
       <ThemeProvider theme={theme(themeType)}>
         <section>
-        <Typography variant="h4" color="secondary">{'<Buttons />'}</Typography>
+          <Typography variant="h4" color="secondary">{'<Buttons />'}</Typography>
           <div className="container">
             <Button color="primary" variant="text">Primary</Button>
             <Button color="secondary" variant="text">Secondary</Button>
@@ -50,6 +51,26 @@ function App() {
             <Button color="primary" variant="contained">Primary</Button>
             <Button color="secondary" variant="contained">Secondary</Button>
             <Button disabled variant="contained">disabled</Button>
+          </div>
+        </section>
+        <br />
+        <Divider />
+        <section>
+          <Typography variant="h4" color="secondary">{'<CustomButtons />'}</Typography>
+          <div className="container">
+            <CustomButton color="primary" variant="text">Primary</CustomButton>
+            <CustomButton color="secondary" variant="text">Secondary</CustomButton>
+            <CustomButton disabled variant="text">disabled</CustomButton>
+          </div>
+          <div className="container">
+            <CustomButton color="primary" variant="outlined">Primary</CustomButton>
+            <CustomButton color="secondary" variant="outlined">Secondary</CustomButton>
+            <CustomButton disabled variant="outlined">disabled</CustomButton>
+          </div>
+          <div className="container">
+            <CustomButton color="primary" variant="contained">Primary</CustomButton>
+            <CustomButton color="secondary" variant="contained">Secondary</CustomButton>
+            <CustomButton disabled variant="contained">disabled</CustomButton>
           </div>
         </section>
         <br />

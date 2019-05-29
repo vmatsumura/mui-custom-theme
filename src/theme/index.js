@@ -26,15 +26,25 @@ const theme = (themeType = 'light') => createMuiTheme({
     secondary: {
       main: colors.secondaryGrey,
     },
+    error: {
+      main: colors.dataRed100
+    },
+    text: {
+      // primary: colors.dataOrange100,
+      // secondary: colors.dataGreen100,
+      // disabled: colors.dataPurple100,
+      // hint: colors.dataYellow100,
+    },
     action: {
       disabled: colors.disabledText,
       disabledBackground: colors.disabledBackground,
       hover: colors.primaryYellowHover,
     },
   },
+  spacing: 8,
   typography: {
     fontFamily: '"Roboto"',
-    useNextVariants: true,
+    // useNextVariants: true,
   },
   props: {
     MuiTypography: {

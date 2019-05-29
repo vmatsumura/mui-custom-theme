@@ -18,11 +18,17 @@ const MuiButton = {
         // lineHeight: 16,
     },
     contained: {
+        "&:disabled": {
+            // color: '#ffffff',
+            backgroundColor: colors.disabledBackground,
+            // boxShadow: 'none',
+        },
         // boxShadow: 'none',
     },
     containedPrimary: {
+        background: 'linear-gradient(150.53deg, #FFE45C 0%, #FFC900 100%)',
         "&:hover": {
-            backgroundColor: 'red',
+            background: colors.primaryYellowHover,
         },
         "&:active": {
             // backgroundColor: '#003b6f',
@@ -30,7 +36,7 @@ const MuiButton = {
         },
         "&:disabled": {
             // color: '#ffffff',
-            // backgroundColor: '#c5ccd6',
+            backgroundColor: 'red',
             // boxShadow: 'none',
         },
         "&:focus": {
@@ -42,7 +48,7 @@ const MuiButton = {
     },
     containedSecondary: {
         // border: '1px solid #006dcc',
-        // backgroundColor: '#ffffff',
+        backgroundColor: colors.dataRed100,
         // color: '#006dcc',
         // "&:hover": {
         //     background: 'rgba(1, 109, 204, 0.08)',
@@ -66,7 +72,7 @@ const MuiButton = {
         //     outline: '1px solid #0057a3',
         //     boxShadow: 'none',
         // }
-    }
+    },
 }
 
 export default MuiButton
