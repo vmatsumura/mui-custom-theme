@@ -10,7 +10,7 @@ const styles = theme => ({
     }
 })
 
-const CustomButton = ({classes, children, ...props }) => {
+const CustomButton = ({ classes, children, ...props }) => {
     return (
         <Button
             classes={classes}

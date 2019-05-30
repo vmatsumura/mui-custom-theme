@@ -79,11 +79,11 @@ function App() {
           <Typography variant="h4" color="secondary">{'<Typography />'}</Typography>
           <div className="container">
             <Typography variant="h1">h1. Heading</Typography>
-            <Typography variant="h2">h2. Heading</Typography>
-            <Typography variant="h3">h3. Heading</Typography>
+            <Typography color="primary" variant="h2">h2. Heading</Typography>
+            <Typography color ="secondary" variant="h3">h3. Heading</Typography>
             <Typography variant="h4">h4. Heading</Typography>
-            <Typography variant="h5">h5. Heading</Typography>
-            <Typography variant="h6">h6. Heading</Typography>
+            <Typography color ="primary" variant="h5">h5. Heading</Typography>
+            <Typography color ="secondary" variant="h6">h6. Heading</Typography>
           </div>
         </section>
         <br />

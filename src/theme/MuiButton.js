@@ -3,7 +3,7 @@ import colors from './colors'
 const MuiButton = {
     root: {
         // height: 28,
-        // borderRadius: 2,
+        borderRadius: '50px',
         // padding: '6px 20px',
         // transition: 'none',
         // boxShadow: 'none',
