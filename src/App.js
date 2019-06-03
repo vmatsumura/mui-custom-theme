@@ -13,7 +13,12 @@ import {
   Select,
   MenuItem,
   Divider,
+  Checkbox,
+  Radio,
+  Switch,
  } from '@material-ui/core';
+import IconButton from '@material-ui/core/IconButton';
+import MenuIcon from '@material-ui/icons/Menu';
 import CustomButton from './components/button'
 import theme from './theme'
 
@@ -24,17 +29,29 @@ function App() {
     <div className="App" style={{backgroundColor: themeType === 'dark' ? 'black' : 'initial'}}>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          <a 
-            href="https://material-ui.com/" 
-            style={{color: '#999'}}
-          >
-            Material-ui
-          </a> 
-          &nbsp;with custom theme
-        </p>
       </header>
       <ThemeProvider theme={theme(themeType)}>
+        <section>
+          <div className="container">
+            <AppBar position="static">
+              <Toolbar>
+                <IconButton edge="start" color="inherit" aria-label="Menu">
+                  <MenuIcon />
+                </IconButton>
+                <Typography>        
+                  <a 
+                    href="https://material-ui.com/" 
+                    style={{color: '#999'}}
+                  >
+                    Material-ui
+                  </a> 
+                    &nbsp;with custom theme
+                </Typography>
+              </Toolbar>
+            </AppBar>
+          </div>
+        </section>
+        <br />
         <section>
           <Typography variant="h4" color="secondary">{'<Buttons />'}</Typography>
           <div className="container">
@@ -133,13 +150,36 @@ function App() {
         <br />
         <Divider />
         <section>
-          <Typography variant="h4" color="secondary">{'<Appbar />'}</Typography>
+          <Typography variant="h4" color="secondary">{'<Checkbox />'}</Typography>
           <div className="container">
-            <AppBar position="static">
-              <Toolbar>
-              <Typography variant="h4">Header</Typography>
-              </Toolbar>
-            </AppBar>
+            <Checkbox />
+            <Checkbox color='primary'/>
+            <Checkbox disabled />
+            <Checkbox checked disabled />
+            <Checkbox indeterminate />
+            <Checkbox indeterminate color='primary'/>
+          </div>
+        </section>
+        <br />
+        <Divider />
+        <section>
+          <Typography variant="h4" color="secondary">{'<Radio />'}</Typography>
+          <div className="container">
+            <Radio />
+            <Radio color='primary'/>
+            <Radio disabled />
+            <Radio checked disabled />
+          </div>
+        </section>
+        <br />
+        <Divider />
+        <section>
+          <Typography variant="h4" color="secondary">{'<Switch />'}</Typography>
+          <div className="container">
+            <Switch />
+            <Switch color='primary'/>
+            <Switch disabled />
+            <Switch checked disabled />
           </div>
         </section>
         <br />

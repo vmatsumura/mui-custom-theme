@@ -48,7 +48,7 @@ const MuiButton = {
     },
     containedSecondary: {
         // border: '1px solid #006dcc',
-        backgroundColor: colors.dataRed100,
+        // backgroundColor: colors.dataRed100,
         // color: '#006dcc',
         // "&:hover": {
         //     background: 'rgba(1, 109, 204, 0.08)',
